@@ -1,4 +1,4 @@
-package pro.udeedit.academy.androidodyssay
+package pro.udeedit.academy.androidodyssey
 
 import org.junit.Test
 
