@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Android Odyssey</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>
