@@ -6,7 +6,7 @@ plugins {
 android {
     namespace = "pro.udeedit.academy.androidodyssey"
     compileSdk {
-        version = release(36) {
+        version = release(37) {
             minorApiLevel = 1
         }
     }
@@ -14,7 +14,7 @@ android {
     defaultConfig {
         applicationId = "pro.udeedit.academy.androidodyssey"
         minSdk = 24
-        targetSdk = 36
+        targetSdk = 37
         versionCode = 1
         versionName = "0.1.0"
 
