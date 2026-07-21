@@ -11,9 +11,10 @@ well-documented codebase.
 
 - Kotlin
 - Jetpack Compose
-- Hilt (Dagger) for dependency injection
+- Dagger 2 for dependency injection
 - Coroutines / Flow
 - Jetpack Navigation
 - GitHub Actions for CI
+- ...many more
 
 More documentation will be added as the project evolves.
