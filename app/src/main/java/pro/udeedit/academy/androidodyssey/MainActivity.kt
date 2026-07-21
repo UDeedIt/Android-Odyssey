@@ -11,11 +11,22 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import pro.udeedit.academy.androidodyssey.di.GreetingService
 import pro.udeedit.academy.androidodyssey.ui.theme.AndroidOdysseyTheme
+import javax.inject.Inject
 
 class MainActivity : ComponentActivity() {
+
+    @Inject
+    lateinit var greetingService: GreetingService
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Trigger Dagger injection so that all @Inject fields are initialized
+        (application as AndroidOdysseyApp).appComponent.inject(this)
+
         enableEdgeToEdge()
         setContent {
             AndroidOdysseyTheme {
