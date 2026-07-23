@@ -2,8 +2,8 @@ name: Android Odyssey CI
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ "master", "develop", "feature/**", "hotfix/**" ]
+#  push:
+#    branches: [ "master", "develop", "feature/**", "hotfix/**" ]
   pull_request:
     branches: [ "master", "develop" ]
 
