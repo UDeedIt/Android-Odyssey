@@ -14,5 +14,5 @@
         <!-- Theme to apply to the activity after the system splash disappears -->
         <item name="postSplashScreenTheme">@style/Theme.AndroidOdyssey</item>
     </style>
-
+    
 </resources>
