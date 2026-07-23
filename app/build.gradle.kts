@@ -51,6 +51,7 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.material)
+
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
@@ -61,4 +62,7 @@ dependencies {
 
     implementation(libs.dagger)
     ksp(libs.dagger.compiler)
+
+    implementation("androidx.core:core-splashscreen:1.0.1")
+
 }

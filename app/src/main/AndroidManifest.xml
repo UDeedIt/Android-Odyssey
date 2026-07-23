@@ -17,7 +17,7 @@
             android:name=".SplashActivity"
             android:exported="true"
             android:label="@string/title_activity_splash"
-            android:theme="@style/Theme.AndroidOdyssey"
+            android:theme="@style/Theme.AndroidOdyssey.Splash"
             android:windowSoftInputMode="adjustResize">
 
             <intent-filter>
